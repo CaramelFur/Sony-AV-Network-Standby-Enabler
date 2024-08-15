@@ -1,0 +1,23 @@
+{
+  "name": "sony-av-network-standby-enabler",
+  "version": "1.0.0",
+  "description": "A simple script that allows you to enable the network standby feature on Sony AV receivers that don't allow it by default. (European models)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sony",
+    "av",
+    "receiver",
+    "network",
+    "standby",
+    "hack",
+    "dn860",
+    "dn1060",
+    "str"
+  ],
+  "author": "Caramel <contact@caramelfur.dev>",
+  "license": "GPL-3.0"
+}
