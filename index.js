@@ -21,7 +21,7 @@ async function main() {
     packet: [{ id: 1, feature: 'network.standby', value: 'on' }],
   };
 
-  const respose = await fetch('http://172.16.5.32/cgi-bin/request.fcgi', {
+  const respose = await fetch(url, {
     headers: {
       'content-type': 'application/json',
     },
